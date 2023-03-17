@@ -1,0 +1,112 @@
+body {
+    background-color: skyblue;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+/* div MOEDAS */
+#MOEDAS {
+    display: flex;
+    justify-content: center;
+}
+
+#DE {
+    height: 50px;
+    width: 400px;
+    text-indent: 15px;
+    border-radius: 20px 20px;
+    background-color: white;
+}
+
+#PARA {
+    height: 50px;
+    width: 400px;
+    text-indent: 15px;
+    border-radius: 20px 20px;
+    background-color: white;
+}
+
+#reverse {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+#input_valor {
+    height: 50px;
+    width: 250px;
+    border-radius: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.div_espaco {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#containerMaior {
+    display: grid;
+    justify-content: center;
+    border: solid 1px gray;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    height: 20vh;
+    font-size: 20px;
+}
+
+#containerMenor {
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+    width: 119.9vh;
+    border: solid 1px gray;
+    border-bottom: transparent;
+    padding: 5px;
+}
+
+.div_resultado {
+    height: 10vh;
+    width: 60vh;
+    display: flex;
+    justify-content: left;
+}
+
+#divInformacoes {
+    border: solid 1px gray;
+    border-top: transparent;
+    height: 10vh;
+    width: 121vh;
+}
+
+.informacoes {
+    padding-left: 10px;
+}
+
+.resultados {
+    padding-left: 10px;
+}
+
+
+/* HEADER - rodapé*/
+.copyright {
+    color: black;
+}
+.icones_header{
+    width: 30px;
+    padding-right: 10px;
+}
+
+#HEADER {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
